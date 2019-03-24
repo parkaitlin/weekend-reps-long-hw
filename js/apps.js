@@ -155,7 +155,18 @@ console.log('JavaScript weekend REPS!');
     randomThings[2] = 'World'
     // 3.
     console.log(randomThings);
-    
+
+    // D. Change Values
+    const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+    // 1.
+    console.log(ourClass[2]);
+    // 2. 
+    ourClass[4] = "Octocat";
+    // 3. 
+    ourClass.push("Cloud City");
+    console.log(ourClass);
+
+
 
 
 
