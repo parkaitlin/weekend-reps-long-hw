@@ -114,17 +114,21 @@ console.log('JavaScript weekend REPS!');
 
     // D. Savings account
         // 1.
-    let bankAccount = 0;
+    // let bankAccount = 0;
     // for(i = 1; i <= 10; i++){
     //     bankAccount += i;
     // }
     // console.log(bankAccount); <== 55
 
         // 2.
-    for(i = 1; i <= 100; i++){
-        bankAccount += i * 2;
-    }
-    console.log(bankAccount); // <== 10100
+    // for(i = 1; i <= 100; i++){
+    //     bankAccount += i * 2;
+    // }
+    // console.log(bankAccount); // <== 10100
+
+    // E. Multiples of 3 and 5
+    // I've already done this problem
+    
 
 
 
