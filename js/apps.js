@@ -32,6 +32,17 @@ console.log('JavaScript weekend REPS!');
         // spent on executing your plan or the multiple ideas
         // you thought of.
 
+    // B. Strings
+        // 1.
+        let firstVariable = "Hello World";
+        firstVariable = 613;
+        let secondVariable = firstVariable;
+        secondVariable = "How are you?";
+        console.log(firstVariable); //<= The value of firstVariable is 613
+
+        // 2.
+        let yourName = "Kaitlin";
+        console.log("Hello, my name is " + yourName);
         
 
 
