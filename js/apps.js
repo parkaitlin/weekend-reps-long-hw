@@ -128,7 +128,24 @@ console.log('JavaScript weekend REPS!');
 
     // E. Multiples of 3 and 5
     // I've already done this problem
+
+// III. Arrays & control flow
+    // A. Talk about it:
+    // 1. they are a list of values for one variable 
+    // that can be stored in an ordered list as elements.
+
+    // 2. No. The elements in an array are ordered from 
+    // 0 and on, but these keys are not specifically assigned
+    // to one value or element. depending on if any of 
+    // the values were altered, added, or removed the 
+    // 'order' or what is used to call the element can 
+    // be different/changed.
     
+    // 3. a cargo train. each container can hold different
+    // things, but are all apart of the same train.
+    
+    
+
 
 
 
