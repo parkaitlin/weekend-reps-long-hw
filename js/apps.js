@@ -104,13 +104,27 @@ console.log('JavaScript weekend REPS!');
     // };
 
     // C. Give me Five
-    for(let i = 0; i <= 100; i++){
-        if(i > 0 && i % 5 === 0){
-            console.log(`I found a ${i}. High Five!`);
-        } else if(i > 0 && i % 3 === 0){
-            console.log(`I foung a ${i}. Three is a crowd`);
-        };
-    };
+    // for(let i = 0; i <= 100; i++){
+    //     if(i > 0 && i % 5 === 0){
+    //         console.log(`I found a ${i}. High Five!`);
+    //     } else if(i > 0 && i % 3 === 0){
+    //         console.log(`I foung a ${i}. Three is a crowd`);
+    //     };
+    // };
+
+    // D. Savings account
+        // 1.
+    let bankAccount = 0;
+    // for(i = 1; i <= 10; i++){
+    //     bankAccount += i;
+    // }
+    // console.log(bankAccount); <== 55
+
+        // 2.
+    for(i = 1; i <= 100; i++){
+        bankAccount += i * 2;
+    }
+    console.log(bankAccount); // <== 10100
 
 
 
