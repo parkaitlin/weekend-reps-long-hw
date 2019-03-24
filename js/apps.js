@@ -185,10 +185,19 @@ console.log('JavaScript weekend REPS!');
     const integer = 250;
     if(integer < 100){
         console.log("little number")
-    } else if(integer >= 100){
+    } else {
         console.log("big number");
     };
-    
+
+    // G. Monkey in the Middle
+    const num = 8;
+    if(num < 5){
+        console.log("little number")
+    } else if(num > 10){
+        console.log("big number");
+    } else {
+        console.log("monkey");
+    };
 
 
 
