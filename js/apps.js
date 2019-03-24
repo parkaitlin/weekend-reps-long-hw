@@ -181,7 +181,15 @@ console.log('JavaScript weekend REPS!');
     myArray.reverse();
     console.log(myArray); // <== ["Egon", 20. 500, 10, "Bob Marley"]
 
+    // F. Biggie Smalls
+    const integer = 250;
+    if(integer < 100){
+        console.log("little number")
+    } else if(integer >= 100){
+        console.log("big number");
+    };
     
+
 
 
 
