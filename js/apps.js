@@ -280,7 +280,18 @@ console.log(isVowel('a'));
 console.log(isVowel('l'));
 console.log(isVowel('E'));
 
+// E. getTwoLengths
 
+const getTwoLengths = (str1, str2) => {
+    let array = [str1, str2];
+    let newArray = [];
+    for(i = 0; i < array.length; i++){
+        newArray.push(array[i].length);
+    };
+    return newArray;
+};
+
+console.log(getTwoLengths('Hank', 'Hippopopalous'));
 
 
 
