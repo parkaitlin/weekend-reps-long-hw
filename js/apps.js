@@ -252,6 +252,11 @@ console.log('JavaScript weekend REPS!');
     thomsCloset[1][2] = 'Footie Pajamas';
     console.log(thomsCloset[1]);
 
+// IV. Functions
+// A. printGreeting <-- Have already done this problem twice 
+//
+
+
 
 
 
