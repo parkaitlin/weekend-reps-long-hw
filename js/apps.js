@@ -146,6 +146,15 @@ console.log('JavaScript weekend REPS!');
     
     // B. Easy Does it
     let quotes = ["Be the change you wish to see in the world - Mahatma Gandhi", "With the new day comes new strength and new thoughts - Eleanor Roosevelt", "Be kind whenever possible. It is always possible - Dalai Lama"];
+
+    // C. Accessing elements
+    const randomThings = [1, 10, 'Hello', true];
+    // 1.
+    console.log(randomThings[0]);
+    // 2.
+    randomThings[2] = 'World'
+    // 3.
+    console.log(randomThings);
     
 
 
