@@ -97,9 +97,18 @@ console.log('JavaScript weekend REPS!');
     // };
 
     // B. Get Even
-    for(let i = 1; i < 100; i++){
-        if(i % 2 === 0){
-            console.log(i + " <-- is an even number");
+    // for(let i = 1; i < 100; i++){
+    //     if(i % 2 === 0){
+    //         console.log(i + " <-- is an even number");
+    //     };
+    // };
+
+    // C. Give me Five
+    for(let i = 0; i <= 100; i++){
+        if(i > 0 && i % 5 === 0){
+            console.log(`I found a ${i}. High Five!`);
+        } else if(i > 0 && i % 3 === 0){
+            console.log(`I foung a ${i}. Three is a crowd`);
         };
     };
 
