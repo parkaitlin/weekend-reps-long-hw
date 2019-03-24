@@ -254,7 +254,14 @@ console.log('JavaScript weekend REPS!');
 
 // IV. Functions
 // A. printGreeting <-- Have already done this problem twice 
-//
+
+// B. printCool
+const printCool = (name) => {
+    console.log(`${name} is cool!`);    
+} 
+printCool('Captain Reynolds');
+
+
 
 
 
