@@ -166,7 +166,22 @@ console.log('JavaScript weekend REPS!');
     ourClass.push("Cloud City");
     console.log(ourClass);
 
+    // E. Mix It Up
+    const myArray = [5, 10, 500, 20];
+    // 1. 
+    myArray.push("Egon");
+    myArray.push("Beats");
+    // 2.
+    myArray.shift();
+    // 3.
+    myArray.unshift("Bob Marley");
+    // 4.
+    myArray.pop();
+    // 5. Mutate refers to altering a const variable
+    myArray.reverse();
+    console.log(myArray); // <== ["Egon", 20. 500, 10, "Bob Marley"]
 
+    
 
 
 
