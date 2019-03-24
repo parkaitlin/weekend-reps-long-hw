@@ -267,6 +267,18 @@ const calculateCube = (num) => {
 }
 console.log(calculateCube(5));
 
+// D. isVowel
+const isVowel = (str) => {
+    let x = str.toLowerCase()
+    if(x.length === 1 && x === 'a' || x === 'e' || x === 'i' || x === 'o' || x === 'u') {
+        return true;
+    } else {
+        return false;
+    };
+}
+console.log(isVowel('a'));
+console.log(isVowel('l'));
+console.log(isVowel('E'));
 
 
 
