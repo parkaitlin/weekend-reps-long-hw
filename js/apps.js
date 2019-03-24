@@ -144,7 +144,10 @@ console.log('JavaScript weekend REPS!');
     // 3. a cargo train. each container can hold different
     // things, but are all apart of the same train.
     
+    // B. Easy Does it
+    let quotes = ["Be the change you wish to see in the world - Mahatma Gandhi", "With the new day comes new strength and new thoughts - Eleanor Roosevelt", "Be kind whenever possible. It is always possible - Dalai Lama"];
     
+
 
 
 
