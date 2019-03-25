@@ -443,7 +443,17 @@ console.log('JavaScript weekend REPS!');
     // 7.
     console.log(user.friend.purchased[1]);
 
+    // F. Loops
+    // 1.
+    for(i = 0; i < user.purchased.length; i++){
+        console.log(user.purchased[i]);
+    };
 
+    // 2.
+    for(i = 0; i < user.friend.purchased.length; i++){
+        console.log(user.friend.purchased[i]);
+    };
+    
 
 
 
