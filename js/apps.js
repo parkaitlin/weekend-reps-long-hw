@@ -421,7 +421,30 @@ console.log('JavaScript weekend REPS!');
     // 3.
     user.purchased.push('Merino jodhpurs');
     console.log(user.purchased[2]);
-    
+
+    // E. Object-within-object
+    // 1.
+    user.friend = {
+        name: 'Emma Powell',
+        age: 34,
+        location: "Nevada",
+        purchased: []
+    };
+    // 2.
+    console.log(user.friend.name);
+    // 3.
+    console.log(user.friend.location);
+    // 4.
+    user.friend.age = 55;
+    // 5.
+    user.friend.purchased.push('The One Ring');
+    // 6.
+    user.friend.purchased.push('A latte');
+    // 7.
+    console.log(user.friend.purchased[1]);
+
+
+
 
 
 
