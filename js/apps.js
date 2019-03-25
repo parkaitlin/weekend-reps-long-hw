@@ -453,7 +453,28 @@ console.log('JavaScript weekend REPS!');
     for(i = 0; i < user.friend.purchased.length; i++){
         console.log(user.friend.purchased[i]);
     };
+
+    // G. Functions can operate of objects
+    // 1.
+    const updateUser = () => {
+        user.age++;
+        user.name = user.name.toUpperCase();
+    };
+
+    updateUser();
+    console.log(user);
+
+    // 2.
+    const oldAndLoud = (person) => {
+        person.age++;
+        person.name = person.name.toUpperCase();
+    };
+
+    oldAndLoud(user);
+    console.log(user);
     
+
+
 
 
 
