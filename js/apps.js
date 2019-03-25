@@ -259,138 +259,146 @@ console.log('JavaScript weekend REPS!');
     console.log(thomsCloset[1]);
 
 // IV. Functions
-// A. printGreeting <-- Have already done this problem twice 
+    // A. printGreeting <-- Have already done this problem twice 
 
-// B. printCool
-const printCool = (name) => {
-    console.log(`${name} is cool!`);    
-} 
-printCool('Captain Reynolds');
+    // B. printCool
+    const printCool = (name) => {
+        console.log(`${name} is cool!`);    
+    } 
+    printCool('Captain Reynolds');
 
-// C. calculateCube
-const calculateCube = (num) => {
-    return Math.pow(num,3);
-}
-console.log(calculateCube(5));
-
-// D. isVowel
-const isVowel = (str) => {
-    let x = str.toLowerCase()
-    if(x.length === 1 && x === 'a' || x === 'e' || x === 'i' || x === 'o' || x === 'u') {
-        return true;
-    } else {
-        return false;
-    };
-}
-console.log(isVowel('a'));
-console.log(isVowel('l'));
-console.log(isVowel('E'));
-
-// E. getTwoLengths
-
-const getTwoLengths = (str1, str2) => {
-    let array = [str1, str2];
-    let newArray = [];
-    for(i = 0; i < array.length; i++){
-        newArray.push(array[i].length);
-    };
-    return newArray;
-};
-
-console.log(getTwoLengths('Hank', 'Hippopopalous'));
-
-// F. getMultipleLengths
-const getMultipleLengths = (array) => {
-    let newArray = [];
-    for(i = 0; i < array.length; i++){
-        newArray.push(array[i].length);
-    };
-    return newArray;
-};
-
-console.log(getMultipleLengths(['hello', 'what', 'is', 'up', 'dude']));
-
-// G. maxOfThree
-const maxOfThree = (num1, num2, num3) => {
-    if(num1 >= num2 && num1 >= num3){
-        console.log(num1);
-    } else if(num2 >= num1 && num2 >= num3){
-        console.log(num2);
-    } else {
-        console.log(num3);
-    };
-}
-
-maxOfThree(6,9,1);
-maxOfThree(12,5,20);
-maxOfThree(4,4,3);
-
-// H. printLongestWord
-const printLongestWord = (array) => {
-    let answerArray = [array[0]];
-    for(i = 1; i < array.length; i++){
-        if(array[i].length > answerArray[0].length){
-            answerArray.pop();
-            answerArray.push(array[i])
-        };
-    };
-    return answerArray;
-};
-console.log(
-    printLongestWord([
-      'BoJack',
-      'Princess',
-      'Diane',
-      'a',
-      'Max',
-      'Peanutbutter',
-      'big',
-      'Todd'
-    ])
-  );
-
-  console.log(printLongestWord(['bubblegum', 'rainbow', 'northwestern']));
-
-// I. transmogrify
-const transmogrify = (num1, num2, num3) => {
-    let product = num1 * num2;
-    return Math.pow(product, num3);
-};
-console.log(transmogrify(5, 3, 2));
-console.log(transmogrify(7, 9, 4));
-
-// J. reverseWordOrder
-const reverseWordOrder = (str) => {
-    let newArray = []
-    for(i = str.length - 1; i >= 0; i--){
-
+    // C. calculateCube
+    const calculateCube = (num) => {
+        return Math.pow(num,3);
     }
-}
+    console.log(calculateCube(5));
 
-// K. Get down and dirty with Math.random
-const randomNum = (min, max) => {
-    return Math.floor(Math.random() * (max - min) + min)
-};
-// 1.
-console.log(randomNum(1, 10));
+    // D. isVowel
+    const isVowel = (str) => {
+        let x = str.toLowerCase()
+        if(x.length === 1 && x === 'a' || x === 'e' || x === 'i' || x === 'o' || x === 'u') {
+            return true;
+        } else {
+            return false;
+        };
+    }
+    
+    console.log(isVowel('a'));
+    console.log(isVowel('l'));
+    console.log(isVowel('E'));
 
-// 2.
-console.log(randomNum(10, 100));
+    // E. getTwoLengths
+    const getTwoLengths = (str1, str2) => {
+        let array = [str1, str2];
+        let newArray = [];
+        for(i = 0; i < array.length; i++){
+            newArray.push(array[i].length);
+        };
+        return newArray;
+    };
 
-// 3.
-console.log(randomNum(532, 13267));
+    console.log(getTwoLengths('Hank', 'Hippopopalous'));
 
-// 4.
-console.log(randomNum(1, 10));
+    // F. getMultipleLengths
+    const getMultipleLengths = (array) => {
+        let newArray = [];
+        for(i = 0; i < array.length; i++){
+            newArray.push(array[i].length);
+        };
+        return newArray;
+    };
 
-// 5.
-const getRandomElement = (array) => {
-    return array[Math.floor(Math.random() * (5 - 0) + 0)]
-};
+    console.log(getMultipleLengths(['hello', 'what', 'is', 'up', 'dude']));
 
-console.log(getRandomElement(quotes));
+    // G. maxOfThree
+    const maxOfThree = (num1, num2, num3) => {
+        if(num1 >= num2 && num1 >= num3){
+            console.log(num1);
+        } else if(num2 >= num1 && num2 >= num3){
+            console.log(num2);
+        } else {
+            console.log(num3);
+        };
+    }
 
+    maxOfThree(6,9,1);
+    maxOfThree(12,5,20);
+    maxOfThree(4,4,3);
 
+    // H. printLongestWord
+    const printLongestWord = (array) => {
+        let answerArray = [array[0]];
+        for(i = 1; i < array.length; i++){
+            if(array[i].length > answerArray[0].length){
+                answerArray.pop();
+                answerArray.push(array[i])
+            };
+        };
+        return answerArray;
+    };
+    
+    console.log(
+        printLongestWord([
+        'BoJack',
+        'Princess',
+        'Diane',
+        'a',
+        'Max',
+        'Peanutbutter',
+        'big',
+        'Todd'
+        ])
+    );
+
+    console.log(printLongestWord(['bubblegum', 'rainbow', 'northwestern']));
+
+    // I. transmogrify
+    const transmogrify = (num1, num2, num3) => {
+        let product = num1 * num2;
+        return Math.pow(product, num3);
+    };
+
+    console.log(transmogrify(5, 3, 2));
+    console.log(transmogrify(7, 9, 4));
+
+    // J. reverseWordOrder
+    const reverseWordOrder = (str) => {
+        let newArray = []
+        for(i = str.length - 1; i >= 0; i--){
+        }
+    }
+
+    // K. Get down and dirty with Math.random
+    const randomNum = (min, max) => {
+        return Math.floor(Math.random() * (max - min) + min)
+    };
+    // 1.
+    console.log(randomNum(1, 10));
+
+    // 2.
+    console.log(randomNum(10, 100));
+
+    // 3.
+    console.log(randomNum(532, 13267));
+
+    // 4.
+    console.log(randomNum(1, 10));
+
+    // 5.
+    const getRandomElement = (array) => {
+        return array[Math.floor(Math.random() * (5 - 0) + 0)]
+    };
+
+    console.log(getRandomElement(quotes));
+
+// Objects
+    // A. Make a user object
+    const user = {
+        name: 'Heather Roth',
+        email: 'hroth@gmail.com',
+        age: 35,
+        purchased: []
+    };
 
 
     
