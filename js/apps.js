@@ -293,8 +293,16 @@ const getTwoLengths = (str1, str2) => {
 
 console.log(getTwoLengths('Hank', 'Hippopopalous'));
 
+// F. getMultipleLengths
+const getMultipleLengths = (array) => {
+    let newArray = [];
+    for(i = 0; i < array.length; i++){
+        newArray.push(array[i].length);
+    };
+    return newArray;
+};
 
-
+console.log(getMultipleLengths(['hello', 'what', 'is', 'up', 'dude']));
 
 
 
