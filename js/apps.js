@@ -319,6 +319,32 @@ maxOfThree(6,9,1);
 maxOfThree(12,5,20);
 maxOfThree(4,4,3);
 
+// H. printLongestWord
+const printLongestWord = (array) => {
+    let answerArray = [array[0]];
+    for(i = 1; i < array.length; i++){
+        if(array[i].length > answerArray[0].length){
+            answerArray.pop();
+            answerArray.push(array[i])
+        };
+    };
+    return answerArray;
+};
+console.log(
+    printLongestWord([
+      'BoJack',
+      'Princess',
+      'Diane',
+      'a',
+      'Max',
+      'Peanutbutter',
+      'big',
+      'Todd'
+    ])
+  );
+
+  console.log(printLongestWord(['bubblegum', 'rainbow', 'northwestern']));
+
 
 
 
