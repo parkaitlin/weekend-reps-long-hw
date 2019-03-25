@@ -414,6 +414,16 @@ console.log('JavaScript weekend REPS!');
     console.log(user);
 
     // D. Shopaholic!
+    // 1.
+    user.purchased.push('carbohydrates');
+    // 2.
+    user.purchased.push('peace of mind');
+    // 3.
+    user.purchased.push('Merino jodhpurs');
+    console.log(user.purchased[2]);
+    
+
+
 
     
 
