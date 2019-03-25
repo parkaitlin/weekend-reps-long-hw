@@ -145,7 +145,13 @@ console.log('JavaScript weekend REPS!');
     // things, but are all apart of the same train.
     
     // B. Easy Does it
-    let quotes = ["Be the change you wish to see in the world - Mahatma Gandhi", "With the new day comes new strength and new thoughts - Eleanor Roosevelt", "Be kind whenever possible. It is always possible - Dalai Lama"];
+    let quotes = [
+        "Be the change you wish to see in the world. - Mahatma Gandhi", 
+        "With the new day comes new strength and new thoughts. - Eleanor Roosevelt", 
+        "Be kind whenever possible. It is always possible. - Dalai Lama",
+        "Life is 10% what happens to you and 90% how you react to it. - Charles R. Swindoll",
+        "If you can dream it, you can do it - Walt Disney"
+    ];
 
     // C. Accessing elements
     const randomThings = [1, 10, 'Hello', true];
@@ -359,8 +365,32 @@ const reverseWordOrder = (str) => {
     for(i = str.length - 1; i >= 0; i--){
 
     }
-
 }
+
+// K. Get down and dirty with Math.random
+const randomNum = (min, max) => {
+    return Math.floor(Math.random() * (max - min) + min)
+};
+// 1.
+console.log(randomNum(1, 10));
+
+// 2.
+console.log(randomNum(10, 100));
+
+// 3.
+console.log(randomNum(532, 13267));
+
+// 4.
+console.log(randomNum(1, 10));
+
+// 5.
+const getRandomElement = (array) => {
+    return array[Math.floor(Math.random() * (5 - 0) + 0)]
+};
+
+console.log(getRandomElement(quotes));
+
+
 
 
     
