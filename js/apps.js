@@ -409,6 +409,11 @@ console.log('JavaScript weekend REPS!');
 
     console.log(user);
 
+    // C. Adding keys and values
+    user.location = 'Colorado';
+    console.log(user);
+
+    // D. Shopaholic!
 
     
 
