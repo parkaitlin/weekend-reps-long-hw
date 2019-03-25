@@ -400,6 +400,15 @@ console.log('JavaScript weekend REPS!');
         purchased: []
     };
 
+    // B. Update the User
+    // 1.
+    user.email = 'heatherr@gmail.com';
+
+    // 2.
+    user.age++
+
+    console.log(user);
+
 
     
 
